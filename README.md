@@ -65,3 +65,27 @@ Active Directory Lab information
     3. Remove user account
       3.1 Remove-ADUser John
       
+
+# 06 - Enabling and Creating remote session
+    
+    1. Enable Remote Session on Server
+      1.1 Enable-PSRemoting
+    2. Enable Service on Workstation and Configure Trusted Hosts
+      2.1 Start-Service WinRM
+      2.2 Get-Item wsman:\localhost\Client\TrustedHosts
+      2.3 Set-Item wsman:\localhost\Client\TrustedHosts -value 10.0.0.38
+    3. Create Session on Workstation and Verify connection
+      3.1 New-PSSession -ComputerName 10.0.0.38 -Credential (Get-Credential)
+      3.2 Enter-PSSession 1
+      
+      
+# 07 - Working with Powershell script files for Automation
+    1. Downloaded Notepad++ on Workstation
+    2. Change Execution policy for Deployment
+      2.1 Set-ExecutionPolicy RemoteSigned
+    3. Created file RemoteConnect.ps1 to automate Connection to Server
+    4. Launch file
+      4.1 C:\Users\Admin\RemoteConnect.ps1
+    5. Alternate command if powershell is in current directory
+      5.1 .\RemoteConnect.ps1
+      
