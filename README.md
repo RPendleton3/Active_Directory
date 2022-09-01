@@ -61,7 +61,7 @@ Active Directory Lab information
       1.1 Set-ADAccountPassword -Identity John -NewPassword (ConvertTo-SecureString -AsPlaintext "P@ssw0rd01" -Force) -Reset
       1.2 Set ADUser John -ChangePasswordAtLogon $true
     2. Disable user account
-      2.1 Set-ADUser John -Enabled $true
+      2.1 Set-ADUser John -Enabled $false
     3. Remove user account
       3.1 Remove-ADUser John
       
