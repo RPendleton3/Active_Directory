@@ -88,4 +88,8 @@ Active Directory Lab information
       4.1 C:\Users\Admin\RemoteConnect.ps1
     5. Alternate command if powershell is in current directory
       5.1 .\RemoteConnect.ps1
+    6. Created file Add-User.ps1 to automate the creation of new Domain Users
+      6.1 Script takes user input for Username, GivenName and Surname
+      6.2 Script has pre-defined variables for remote connection to the server
+      6.3 Script creates a base password and forces new user to reset upon first logon
       
