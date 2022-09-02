@@ -92,4 +92,5 @@ Active Directory Lab information
       6.1 Script takes user input for Username, GivenName and Surname
       6.2 Script has pre-defined variables for remote connection to the server
       6.3 Script creates a base password and forces new user to reset upon first logon
+      6.4 Next Revision will add more information including groups
       
