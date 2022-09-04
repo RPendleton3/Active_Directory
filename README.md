@@ -95,4 +95,16 @@ Active Directory Lab information
       6.4 Next Revision will add more information including groups
     7. Created file Reset-Password.ps1 to automate the reset of lost passwords
     8. Created file Remove-User.ps1 to automate removal of domain users
+    
+# 08 - Working with Groups and Sharefiles
+    1. Using Remove-User.ps1, remove all users except Administrator
+    2. Using Add-User.ps1, create six new domain users
+      2.1 RPendleton - Robert Pendleton
+      2.2 JSmith - John Smith
+      2.3 JDoe - Jane Doe
+      2.4 MJackson - Michael Jackson
+      2.5 JWalton - Joe Walton
+      2.6 EJohnson - Erin Johnson
+    3. Created AddToGroup.ps1 script to remotely add users to groups
+    4. Placed all users into Employee group and RPendleton into Domain Admins group
       
