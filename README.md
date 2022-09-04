@@ -48,7 +48,7 @@ Active Directory Lab information
 # 04 - Working with Groups
 
     1. Check list of current groups
-      1.1 get-ADGroup -Filter * | Format-Table DistinguishedName
+      1.1 Get-ADGroup -Filter * | Format-Table DistinguishedName
     2. On Workstation, determine which group has admin privileges
       2.1 Get-LocalGroupMember -Group "Administrators"
     3. After determining Domain Admins group, Set user Jane to Admin
