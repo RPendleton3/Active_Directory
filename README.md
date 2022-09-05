@@ -106,5 +106,5 @@ Active Directory Lab information
       2.5 JWalton - Joe Walton
       2.6 EJohnson - Erin Johnson
     3. Created AddToGroup.ps1 script to remotely add users to groups
-    4. Placed all users into Employee group and RPendleton into Domain Admins group
+    4. Placed all Users into Employee group and RPendleton into Domain Admins group
       
