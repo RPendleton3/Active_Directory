@@ -107,4 +107,9 @@ Active Directory Lab information
       2.6 EJohnson - Erin Johnson
     3. Created AddToGroup.ps1 script to remotely add users to groups
     4. Placed all Users into Employee group and RPendleton into Domain Admins group
-      
+    5. Created file for network storage
+      5.1 mkdir C:\NetworkStorage
+      5.2 mkdir C:\NetworkStorage\RPendleton
+    6. Setup share specifically for admin RPendleton
+      6.1 New-SmbShare -Name "RPendletonShare" -Path "C:\NetworkStorage\RPendleton" -FullAccess "RPendleton"
+      6.2 icacls "C:\NetworkStorage\RPendleton" /grant "RPendleton:(OI)(CI)(F)"
