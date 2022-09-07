@@ -113,3 +113,8 @@ Active Directory Lab information
     6. Setup share specifically for admin RPendleton
       6.1 New-SmbShare -Name "RPendletonShare" -Path "C:\NetworkStorage\RPendleton" -FullAccess "RPendleton"
       6.2 icacls "C:\NetworkStorage\RPendleton" /grant "RPendleton:(OI)(CI)(F)"
+    7. Create new group for filesharing for base level staff
+      7.1 New-ADGroup Staff -GroupScope Global -GroupCategory Security
+      7.2 Add-ADGroupMember -Identity Staff -Members RPendleton, JSmith, JDoe, MJackson, JWalton, EJohnson
+      7.3 New-SmbShare -Name "StaffShare" -Path "C:\NetworkStorage\Employee -FullAccess "Staff"
+      7.4 icacls "C:\NetworkStorage\Employee" /grant "Staff:(OI)(CI)(F)"
