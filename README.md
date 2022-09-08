@@ -118,3 +118,6 @@ Active Directory Lab information
       7.2 Add-ADGroupMember -Identity Staff -Members RPendleton, JSmith, JDoe, MJackson, JWalton, EJohnson
       7.3 New-SmbShare -Name "StaffShare" -Path "C:\NetworkStorage\Employee -FullAccess "Staff"
       7.4 icacls "C:\NetworkStorage\Employee" /grant "Staff:(OI)(CI)(F)"
+    8. Grant access to "StaffShare" for Domain Admins
+      8.1 Grant-SmbShareAccess -Name "StaffShare" -AccountName "Domain Admins" -AccessRight Full
+      
