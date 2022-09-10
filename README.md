@@ -120,5 +120,4 @@ Active Directory Lab information
       7.4 icacls "C:\NetworkStorage\Employee" /grant "Staff:(OI)(CI)(F)"
     8. Grant access to "StaffShare" for Domain Admins
       8.1 Grant-SmbShareAccess -Name "StaffShare" -AccountName "Domain Admins" -AccessRight Full
-    9. Changed Add-User script to include ability to add group upon user creation
-      
+    9. Changed Add-User script to include ability to add group upon user creation 
