@@ -121,3 +121,8 @@ Active Directory Lab information
     8. Grant access to "StaffShare" for Domain Admins
       8.1 Grant-SmbShareAccess -Name "StaffShare" -AccountName "Domain Admins" -AccessRight Full
     9. Changed Add-User script to include ability to add group upon user creation 
+    
+# 09 - Working with setting up and configuring Group Policys
+    1. Install Group Policy Management Console
+      1.1 Install-WindowsFeature GPMC -IncludeManagementTools
+    
