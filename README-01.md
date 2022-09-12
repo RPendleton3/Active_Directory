@@ -1,4 +1,4 @@
-# Active_Directory
+# Active_Directory_Core_Lab
 Active Directory Lab information
 
 # 00 - Setup Virtual Enviroments
