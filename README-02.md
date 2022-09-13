@@ -17,4 +17,3 @@ Active Directory Lab information
       2.2 Set-DNSClientServerAddress -InterfaceIndex 13 -ServerAddress 10.0.0.56
     3. Install Group Policy Management Console
       3.1 Install-WindowsFeature GPMC -IncludeManagementTools
-![ADLab1](https://user-images.githubusercontent.com/112475845/189880007-34a385de-cd9c-4af4-860d-2696410771ac.PNG)
