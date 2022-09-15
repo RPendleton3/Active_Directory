@@ -1,0 +1,11 @@
+#Downloading additional applications for group policy configuration
+*A guide I wish I had, would have saved me alot of time and research
+
+   In order to work with group policy effectively you need applications loaded onto an administrative account on a workstation
+   To find applications on windows 11:
+
+   Press windows key on keyboard
+   Select Settings
+   Select Apps
+   Select Optional Features
+   
