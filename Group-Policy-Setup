@@ -1,11 +1,24 @@
 #Downloading additional applications for group policy configuration
 *A guide I wish I had, would have saved me alot of time and research
 
-   In order to work with group policy effectively you need applications loaded onto an administrative account on a workstation
-   To find applications on windows 11:
+   In order to work with group policy effectively you need applications loaded onto an administrative account on a workstation to find applications on windows 11:
 
    Press windows key on keyboard
    Select Settings
    Select Apps
    Select Optional Features
+   **See Image Group-Policy-Setup-001
    
+   Click view features under Add an optional features
+   Type RSAT in the search bar
+   Click the checkbox for the following items:
+        RSAT: Active Directory Domain Services and Lightweight Directory Service Tools
+	     RSAT: Group Policy Management Tools
+	     RSAT: Server Manager
+   **See Image Group-Policy-Setup-002
+   
+   **If you do not see one or more of these on the list you can go back to the Optional Features screen and see if they have been already downloaded once selected click next and then click install
+     This will take you back to the apps menu and show you the apps you are downloading
+     Now if u search for the Windows Tools Folder and open it, you will see you now have afew AD programs
+   **See Image Group-Policy-Setup-003
+  
